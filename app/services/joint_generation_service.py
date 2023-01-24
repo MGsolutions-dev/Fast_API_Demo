@@ -18,7 +18,7 @@ class JointGenerationService:
                 session.post(""),
                 session.post(""),
             )
-            generated_joint_1 = GeneratedJoints.parse_raw(**result1.json())
+            generated_joint_1 = GeneratedJoints.parse_raw(**await result1.json())
             print(generated_joint_1)
             print(result2.json())
             print(result3.json())
