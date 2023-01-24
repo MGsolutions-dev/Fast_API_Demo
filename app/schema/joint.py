@@ -24,4 +24,3 @@ class GeneratedJoints(BaseModel):
     l3: Joint2D
     l4: Joint2D
     l5: Joint2D
-    l6: Joint2D
